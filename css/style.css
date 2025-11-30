@@ -27,7 +27,7 @@ body {
 
 
 .hero h1 {
-    font-size: 65px;
+    font-size: 62px;
     font-weight: 600;
     color: #3B3B3B;
     margin-bottom: 50px;
@@ -123,20 +123,7 @@ body {
     transition: all 0.3s ease;
 }
 
-/*/* Hamburger animation to X */
-/*.hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-}
-.hamburger.active span:nth-child(2) {
-    opacity: 0;
-}
-.hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
-}*/*/
 
-/* --------------------- */
-/* SECTIONS */
-/* --------------------- */
 section {
     padding: 55px 25px;
     max-width: 900px;
@@ -166,6 +153,8 @@ h2 {
     border-radius: 8px;
     font-weight: bold;
     color: #3B3B3B;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
 }
 
 /* Projects */
@@ -299,6 +288,7 @@ footer {
         box-shadow: -2px 0 10px rgba(0,0,0,0.15);
         z-index: 1000;
         align-items: center;
+        
         border-radius: 5px;
     }
 
