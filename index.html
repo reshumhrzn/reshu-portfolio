@@ -11,8 +11,15 @@
     <nav class="navbar">
     <div class="nav-left">My Portfolio</div>
 
+    <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+    </div>
+
     <ul class="nav-right">
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
@@ -20,9 +27,12 @@
 
     <!-- Header Section -->
     <header class="hero">
-        
+
+        <video width="1000px" height="300px" autoplay muted loop playsinline id="vid">
+      <source src="./videos/background.mp4" type="video/mp4">
+        browser does not support the video
+    </video>
         <h1>Welcome To My Portfolio!</h1>
-        <!-- <img src="images/pic.png" class="profile-pic" alt="Reshu Profile Photo"> -->
         <h2>Reshu Maharjan</h2>
         <p>Web Developer | Designer | Learner</p>
     </header>
@@ -35,13 +45,32 @@
         <p>Hello! I am an aspiring web developer with a strong interest in clean design, problem-solving, and continuous learning. I enjoy exploring new technologies and improving my skills to create efficient and user-friendly digital experiences.</p>
     </section>
 
+    <!-- SKILLS -->
+        <section id="skills">
+            <div class="section-inner">
+                <h2>Skills</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card">HTML</div>
+                    <div class="skill-card">CSS</div>
+                    <div class="skill-card">JavaScript</div>
+                    <div class="skill-card">Node.js</div>
+                    <div class="skill-card">MongoDB</div>
+                </div>
+            </div>
+        </section>
+
     <!-- Projects Section -->
     <section id="projects" class="section">
         <h2>My Projects</h2>
 
         <article class="project">
             <h3>Weather App</h3>
-            <img src="images/weather.png" class="project-img" alt="Weather">
+            <!-- <img src="images/weather.png" class="project-img" alt="Weather"> -->
+            <video width="1000px" height="300px" autoplay muted loop playsinline id="video">
+      <source src="./videos/weather.mp4" type="video/mp4">
+        browser does not support the video
+    </video>
             <p>A simple and interactive Weather App that fetches real-time weather data using an API. 
                 It includes features like temperature display, weather condition icons, and location search.
             </p>
@@ -78,6 +107,6 @@
     <footer>
         <p>© 2025 My Portfolio | All Rights Reserved</p>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
